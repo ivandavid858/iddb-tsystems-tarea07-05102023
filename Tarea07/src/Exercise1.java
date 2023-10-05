@@ -6,8 +6,6 @@ public class Exercise1 {
 
 	public static void main(String[] args) {
 		
-		//Ex1
-		//Validar que el usuario exista
 		Scanner sc = new Scanner(System.in);
 		
 		Hashtable<String, Double> students = new Hashtable<String, Double>();
@@ -35,22 +33,6 @@ public class Exercise1 {
 		for (Map.Entry<String, Double> student : students.entrySet()) {
 			System.out.println(student.getKey() + ": " + student.getValue());
 		}
-		
-		//Ex2:
-		//En una lista guardar 5 articulos
-		//nombre, precio
-		//recorrer la lista
-		
-		
-		//Ex3:
-		//articulos y cantidad
-		//decidir si es vector, dicionario...
-		//hacer crud. Eliminar no
-		
-		//Ex4:
-		
-		
-		
 
 	}
 
